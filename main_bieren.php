@@ -5,8 +5,8 @@ $teller = 0;
 
 
 
-OpenDb();
-
+$conn = OpenDb();
+var_dump($conn);
 
 OvzBieren();
 
